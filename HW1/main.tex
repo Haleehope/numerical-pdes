@@ -139,7 +139,7 @@ Repeat Problem 1, but compute the second derivative $f''(x)$. Assume periodicity
     \label{fig:Q2a}
 \end{figure} 
 
-Relative errors decrease as the grid granularity increases. The infinity-norm slope is approximately $-1.995$ and the 2-norm slope is approximately $-1.996$, which are both close to the expected slope of $-2$. Therefore, the finite difference approximation demonstrates second-order convergence.
+Relative errors decrease as the grid granularity increases. The infinity-norm slope is approximately $-1.995$ and the 2-norm slope is approximately $-1.996$, which are both close to the expected slope of $-2$. Therefore, the finite difference approximation demonstrates second-order convergence. The error is $O(N^{-2})$ for both norms because we assumed periodicity and used the second-order finite difference method at every point.
 
 \begin{figure}[H]
     \centering
